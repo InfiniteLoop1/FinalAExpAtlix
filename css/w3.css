@@ -1,0 +1,10 @@
+﻿
+.w3-tooltip,.w3-display-container{
+    position:relative}
+
+.w3-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+
+.w3-left{float:left!important}.w3-right{float:right!important}
+
+
+
