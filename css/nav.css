@@ -52,7 +52,6 @@
 }
 
 .blue-navbar{
-    background-color: dodgerblue;
     width: 100%;
     height: 15%;
     margin: 0;
@@ -73,9 +72,9 @@
 .white-navbar img{
     width: 10%;
     text-align: left;
-    margin-left: -11%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    margin-left: -10%;
+    padding-top:3%;
+    padding-bottom: 6%;
     text-decoration: none;
     position: absolute;
 }
@@ -94,14 +93,13 @@
 
 
 .white-navbar p{
-    padding: 0;
-    margin: 0;
     color: #545454;
     padding-top: 5%;
     padding-bottom: 5%;
     margin-left: 5%;
     text-decoration: none;
     font-family: sans-serif;
+    margin-top: 15%;
 }
 
 
@@ -117,7 +115,7 @@
     height: 44.8%;
     background-color: white;
     width: 100%;
-    margin-top: 31%;
+    margin-top: 40%;
     position: relative;
 }
 
@@ -127,7 +125,7 @@
 }
 
 .redesnav img{
-    margin-top: 73%;
+    margin-top: 85%;
     width: 14%;
     margin-left: 9%;
     margin-right: 9%;
@@ -141,16 +139,15 @@
 .navlang{
     padding-left:16%;
     background-color: lightgray;
-    height: 10%;
-    margin-top: 79%;
+    height: 18%;
+    margin-top: 90%;
     width: 97%;
     padding-bottom: 3.34%;
 }
 
 .navlang img{
-    width: 25%;
+    width: 65%;
     margin-top: 3%;
-    margin-right:16%;
 }
 
 
@@ -173,6 +170,7 @@ header{
 
 #menu3 img{
     width: 13%;
+    margin-top: 15%;
 }
 
 #btn-menu{
@@ -184,6 +182,8 @@ header{
     margin-left: 2%;
     margin-top: 1.1%;
     margin-bottom: 1.%;
+    z-index: 4;
+    position: relative;
 }
 
 #menu3{
@@ -191,7 +191,7 @@ header{
     width: 84%;
     z-index: 6;
     margin-left: 15%;
-    padding-top: 1%;
+    padding-top:0%;
     text-decoration: none;
 }
 
@@ -204,7 +204,7 @@ header{
 
 #menu2:checked ~ .submenu{
     display:block;
-   padding-top: 15%;
+   padding-top: 25%;
     margin-left: 0%;
     font-family: sans-serif;
     text-decoration: none;
@@ -215,15 +215,15 @@ header{
 #menu2:checked ~ .submenu a {
     text-decoration: none;
     color: #545454;
-    font-size: 16.7px;  
+    font-size: 15px;  
 }
 
 #menu2:checked ~ .submenu a div{
     width: 100%;
-    margin-left: 15%;
-    margin-top: 1%;
-    margin-bottom: 5%;
-    padding-top: 6%;
+    margin-left: 30%;
+    margin-top: 9%;
+    margin-bottom: 0%;
+    padding-top: 0%;
 }
 
 #menu2:checked ~ .submenu a div img{
@@ -232,5 +232,11 @@ header{
     padding: 0;
     position: absolute;
     margin-left: -20%;
-    margin-top: -2%;
+    margin-top: %;
+}
+
+#menu2{
+    display: none;
+    background-color: white;
+    text-decoration: none;
 }
