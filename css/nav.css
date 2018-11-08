@@ -5,8 +5,8 @@
         bottom: 0;
         right: 0;
         z-index: 0;
-        width: 69%;
-          max-width: 69%;
+        width: 75%;
+          max-width: 75%;
         height: 100%;
           max-height: 100%;
           overflow: hidden;
@@ -20,6 +20,7 @@
         will-change: transform;
         height: 100%;
           max-height: 100%;
+          width: 100%;
         background-color: white;
       }
 
@@ -27,8 +28,11 @@
       .slideout-open body,
       .slideout-open .slideout-panel {
         overflow: hidden;
-                    height: 100%;
-          max-height: 100%;
+        height: 100%;
+        max-height: 100%;
+          width: 100%;
+          max-width: 100%;
+          margin-left: -5.5%;
       }
 
 .slideout-open .slideout-menu {
@@ -41,33 +45,41 @@
 
 .blue-navbar img{
     width: 100%;
-    padding-top: 3.9%;
+    padding-top: 4%;
     position: absolute;
 }
 
-.blue-navbar{
-    width: 100%;
-    height: 15%;
+.panel-header{
+    position: relative;
+    height: 2.9%;
+    z-index: 4;
     margin: 0;
     padding: 0;
-    margin-top: -3.9%;
+}
+
+
+.blue-navbar{
+    width: 100%;
+    height: 17%;
+    margin: 0;
+    padding: 0;
+    margin-top: -4%;
 }
 
 .white-navbar{
     width: 100%;
     margin: 0;
     padding: 0;
-    margin-top: -18%;
-    padding-top: 5%;
+    margin-top: -16%;
     background-color: white;
 }
 
 
 .white-navbar img{
-    width: 12%;
+    width: 10%;
     text-align: left;
-    margin-left: -13%;
-    padding-top:2.5%;
+    margin-left: -15%;
+    padding-top:2%;
     text-decoration: none;
     position: absolute;
 }
@@ -87,13 +99,12 @@
 
 .white-navbar p{
     color: #545454;
-    padding-top: 6%;
-    padding-bottom: 5%;
-    margin-left: 6%;
+    padding-top: 4%;
+    margin-left: -3%;
     text-decoration: none;
     font-family: sans-serif;
-    margin-top: 18%;
-    font-size: 16px;
+    margin-top: 15%;
+    font-size: 75%;
 }
 
 
@@ -106,16 +117,16 @@
 }
 
 .navcontent{
-    height: 44.8%;
+    height: 32%;
     background-color: white;
     width: 100%;
-    margin-top: 40%;
+    margin-top: 15%;
     position: relative;
 }
 
 .redesnav{
     width: 100%;
-    height: 9%;
+    margin-top: 38%;
 }
 
 .redesnav img{
@@ -133,8 +144,8 @@
 .navlang{
     padding-left:16%;
     background-color: lightgray;
-    height: 18%;
-    margin-top: 58%;
+    height: 24%;
+    margin-top: 0%;
     width: 100%;
     padding-bottom: 3.34%;
 }
@@ -146,26 +157,18 @@
 }
 
 
-
-header{
-    width: 100%;
-    max-width: 100%;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-}
-
 #logomenu{
     width: 6.5%;
     margin-left: 42%;
     position: absolute;
-    margin-top: .4%;
+    margin-top: .6%;
 }
 
 
 #menu3 img{
-    width: 14%;
-    margin-top: 18%;
+    width: 13%;
+    margin-left: -17%;
+    margin-top: 14%;
 }
 
 #btn-menu{
@@ -175,17 +178,16 @@ header{
 .tooltip img{
     width: 4%;
     margin-left: 2%;
-    margin-top: 1.1%;
-    margin-bottom: 1.%;
+    margin-top: .9%;
     z-index: 4;
     position: relative;
 }
 
 #menu3{
     position: absolute;
-    width: 84%;
+    width:84%;
     z-index: 6;
-    margin-left: 15%;
+    margin-left: 25%;
     padding-top:0%;
     text-decoration: none;
 }
@@ -210,15 +212,15 @@ header{
 #menu2:checked ~ .submenu a {
     text-decoration: none;
     color: #545454;
-    font-size: 16px;  
+    font-size: 72%;
 }
 
 #menu2:checked ~ .submenu a div{
     width: 100%;
-    margin-left: 30%;
-    margin-top: 9%;
+    margin-left: 20%;
+    margin-top: 7%;
     margin-bottom: 0%;
-    padding-top: 0%;
+    padding-top: 4%;
 }
 
 #menu2:checked ~ .submenu a div img{
@@ -227,7 +229,7 @@ header{
     padding: 0;
     position: absolute;
     margin-left: -20%;
-    margin-top: %;
+    margin-top: -3%;
 }
 
 #menu2{
