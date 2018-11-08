@@ -5,8 +5,8 @@
         bottom: 0;
         right: 0;
         z-index: 0;
-        width: 64%;
-          max-width: 64%;
+        width: 69%;
+          max-width: 69%;
         height: 100%;
           max-height: 100%;
           overflow: hidden;
@@ -31,12 +31,6 @@
           max-height: 100%;
       }
 
-      .slideout-open .slideout-menu {
-        display: block;
-                    height: 100%;
-          max-height: 100%;
-      }
-
 .slideout-open .slideout-menu {
         display: block;
           margin: 0;
@@ -46,7 +40,7 @@
       }
 
 .blue-navbar img{
-    width: 98%;
+    width: 100%;
     padding-top: 3.9%;
     position: absolute;
 }
@@ -63,18 +57,17 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    margin-top: -23%;
+    margin-top: -18%;
     padding-top: 5%;
     background-color: white;
 }
 
 
 .white-navbar img{
-    width: 10%;
+    width: 12%;
     text-align: left;
-    margin-left: -10%;
-    padding-top:3%;
-    padding-bottom: 6%;
+    margin-left: -13%;
+    padding-top:2.5%;
     text-decoration: none;
     position: absolute;
 }
@@ -94,12 +87,13 @@
 
 .white-navbar p{
     color: #545454;
-    padding-top: 5%;
+    padding-top: 6%;
     padding-bottom: 5%;
-    margin-left: 5%;
+    margin-left: 6%;
     text-decoration: none;
     font-family: sans-serif;
-    margin-top: 15%;
+    margin-top: 18%;
+    font-size: 16px;
 }
 
 
@@ -125,7 +119,7 @@
 }
 
 .redesnav img{
-    margin-top: 85%;
+    margin-top: 53%;
     width: 14%;
     margin-left: 9%;
     margin-right: 9%;
@@ -140,14 +134,15 @@
     padding-left:16%;
     background-color: lightgray;
     height: 18%;
-    margin-top: 90%;
-    width: 97%;
+    margin-top: 58%;
+    width: 100%;
     padding-bottom: 3.34%;
 }
 
 .navlang img{
-    width: 65%;
-    margin-top: 3%;
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 4%;
 }
 
 
@@ -169,8 +164,8 @@ header{
 
 
 #menu3 img{
-    width: 13%;
-    margin-top: 15%;
+    width: 14%;
+    margin-top: 18%;
 }
 
 #btn-menu{
@@ -215,7 +210,7 @@ header{
 #menu2:checked ~ .submenu a {
     text-decoration: none;
     color: #545454;
-    font-size: 15px;  
+    font-size: 16px;  
 }
 
 #menu2:checked ~ .submenu a div{

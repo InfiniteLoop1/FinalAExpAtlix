@@ -2,12 +2,9 @@ body {
   width: 100%;
 		margin: 0;
 	padding: 0;
-    height: 100%;
-	max-height: 100%;
 	max-width: 100%;
     background-color: white;
-    overflow:hidden;
-    overflow-y: hidden;
+
 }
 
 .slideout-open #texto{
@@ -43,9 +40,9 @@ body {
 
 .slideout-open #words
 {
-    width: 100%;
-    margin-top: -16px;
-    margin-left: -204px;
+    width: 101%;
+    margin-top: -4%;
+    margin-left:-50%;
 }
 
 .swiper-container {
@@ -70,9 +67,10 @@ body {
       -webkit-align-items: center;
       align-items: center;
         z-index: 0;
+        padding: 0;
     }
 
 .swiper-slide img{
     width: 100%;
-    margin-top: -88%;
+    margin-top: -86%;
 }
