@@ -2,7 +2,6 @@ body {
   width: 100%;
 		margin: 0;
 	padding: 0;
-	max-width: 100%;
     background-color: white;
 
 }
@@ -37,9 +36,10 @@ body {
 
 .slideout-open #words
 {
-    width: 100%;
+    width: 85%;
     margin-left:-50%;
-    z-index: 1;
+    margin-top: -5%;
+    z-index:1;
 }
 
 .swiper-container {
