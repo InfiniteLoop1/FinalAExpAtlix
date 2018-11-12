@@ -24,28 +24,10 @@ body {
     margin-top: 0%;
 }
 
-
-#words{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    margin-top: -6.3%;
-    z-index: 4;
-    position: absolute;
-}
-
-.slideout-open #words
-{
-    width: 85%;
-    margin-left:-50.7%;
-    margin-top: -5.8%;
-    z-index:1;
-}
-
 .slideout-open .swiper-container
 {
       width: 84%;
-    max-height: 42%;
+    max-height: 51%;
     margin: 0;
     padding: 0;
     z-index: 0;
@@ -72,15 +54,15 @@ text-align: center;
         padding: 0;
         margin: 0;
         width: 65%;
-        max-height: 42%;
+        max-height: 51%;
 }
 
 
 .slideout-open .swiper-slide img{
     width: 101%;
-        margin-top: -3%;
+        margin-top: 15%;
     z-index: 0;
-    max-height: 42%;
+    max-height: 51%;
     position: relative;
 }
 
@@ -88,7 +70,7 @@ text-align: center;
 
 .swiper-container {
       width: 100%;
-    max-height: 42%;
+    max-height: 51%;
     margin: 0;
     padding: 0;
     }
@@ -114,10 +96,44 @@ text-align: center;
         margin: 0;
         width: 100%;
         max-width: 100%;
-        max-height: 42%;
+        max-height: 51%;
     }
 
 .swiper-slide img{
     width: 100%;
-        margin-top: -3%;
+        margin-top: 16%;
+}
+
+.logoatlix{
+    width: 15%;   
+    z-index: 3;
+    position: absolute;
+    margin-left: 42.5%;
+    margin-top: -7%;
+}
+
+#moto{
+    width: 100%;
+}
+
+#pop{
+    width:65%;
+    margin-left: 17.5%;
+}
+
+.slideout-open #moto{
+    margin-left: -14%;
+    width: 96%;
+    margin-top: .1%
+}
+
+.slideout-open #pop{
+    width: 61%;
+    margin-left: -14%;
+}
+
+.slideout-open .logoatlix{
+    width: 12.5%;
+    margin-top: -6%;
+    margin-left: 36%;
 }
