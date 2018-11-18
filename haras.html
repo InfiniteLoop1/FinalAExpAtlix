@@ -7,8 +7,9 @@
 <meta name="HandheldFriendly" content="True">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<link rel="stylesheet" href="css/estable.css">
+<link rel="stylesheet" href="css/palomas.css">
 <link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/swiper.min.css">
   </head>
   <body>
       
@@ -79,75 +80,36 @@
 
 <img src="imagenes/Atlixco.png" id="logomenu">
                 <label class="bloqueo" for="btn-menu"></label>
-  </header>          
-        
-          <div class="contenedor">
-			<input type="radio" name="filtro" id="laptop">
-			<label for="laptop">Restaurantes</label>
-			<input type="radio" name="filtro" id="tablet">
-			<label for="tablet">Hoteles</label>
-			<input type="radio" name="filtro" id="movil">
-			<label for="movil">Entretenimiento</label>
+  </header>
+          <img src="imagenes/haras.jpg" id="logo">
+          <div id="texto">
+              <p class="tit">HARAS ATLIXCO</p>
               
-            <input type="radio" name="filtro" id="bar">
-			<label for="bar">Bares</label>
-              <br>
-              <br>
-            <input type="radio" name="filtro" id="relax">
-			<label for="relax" id="root">Relajación</label>
-			
-			<div id="imagenes">
-				<div class="laptop">
-                        <a href="tamalito.html"><img src="imagenes/tamalito.jpg" ></a>
-                    <a href="palomas.html">
-                        <img src="imagenes/palomas.png" ></a>
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>
-				<div class="tablet">
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>
-				<div class="movil">
-                        <img src="imagenes/haras.jpg" >
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>
-                				<div class="bar">
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>				<div class="relax">
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>
-                
-			</div>
-		</div>
+              <div class="direc"><a href="https://www.google.com/maps/place/Av.+F.+Carrillo+Puerto+702,+Ricardo+Flores+Mag%C3%B3n,+74240+Atlixco,+Pue./@18.9060731,-98.419879,17z/data=!3m1!4b1!4m5!3m4!1s0x85cfb474eae89839:0xda80024f4da23ad2!8m2!3d18.9060731!4d-98.419879">Av. F. Carrillo Puerto 702, Ricardo Flores Magón, 74240 Atlixco, Pue</a></div>
+              
+              
+              <div class="telf"><a href="tel:+52 2444458358"><img src="imagenes/phone-receiver.png"><p>+52  244 445 8358</p>
+                </a>  </div>
+          </div>
           
+          <div id="descrip">
+Déjanos consentirte, con nuestros paseos a caballo mientras disfrutas de la tranquilidad y los paisajes que estamos seguros te encantarán.
+Además puedes complementar la cabalgata con un día de campo en un ambiente 100% familiar.
+          </div>
+          <br>
+         <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><a><img src="imagenes/haras%202.jpg"></a></div>
+        <div class="swiper-slide"><a><img src="imagenes/haras%203.jpg"></a></div>
+      <div class="swiper-slide"><a><img src="imagenes/haras%204.jpg"></a></div>   
+             </div>
+          </div>
       </main>
-      
  </body>
     
     
     <script src="js/slideout.min.js"></script>
-    <script src="js/jquery-3.2.1.js"></script>
+          <script src="js/swiper.min.js"></script>
     <script>
 
       var slideout = new Slideout({
@@ -167,7 +129,19 @@
   fixed.style.transition = 'transform 100ms ease';
 });
         
+      
       </script>
       
-  
+          <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+
+  </script>
 </html>

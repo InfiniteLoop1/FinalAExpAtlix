@@ -7,8 +7,9 @@
 <meta name="HandheldFriendly" content="True">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<link rel="stylesheet" href="css/estable.css">
+<link rel="stylesheet" href="css/tamal.css">
 <link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/swiper.min.css">
   </head>
   <body>
       
@@ -79,75 +80,36 @@
 
 <img src="imagenes/Atlixco.png" id="logomenu">
                 <label class="bloqueo" for="btn-menu"></label>
-  </header>          
-        
-          <div class="contenedor">
-			<input type="radio" name="filtro" id="laptop">
-			<label for="laptop">Restaurantes</label>
-			<input type="radio" name="filtro" id="tablet">
-			<label for="tablet">Hoteles</label>
-			<input type="radio" name="filtro" id="movil">
-			<label for="movil">Entretenimiento</label>
+  </header>
+          <img src="imagenes/tamalito.jpg" id="logo">
+          <div id="texto">
+              <p class="tit">EL TAMALITO</p>
               
-            <input type="radio" name="filtro" id="bar">
-			<label for="bar">Bares</label>
-              <br>
-              <br>
-            <input type="radio" name="filtro" id="relax">
-			<label for="relax" id="root">Relajación</label>
-			
-			<div id="imagenes">
-				<div class="laptop">
-                        <a href="tamalito.html"><img src="imagenes/tamalito.jpg" ></a>
-                    <a href="palomas.html">
-                        <img src="imagenes/palomas.png" ></a>
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>
-				<div class="tablet">
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>
-				<div class="movil">
-                        <img src="imagenes/haras.jpg" >
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>
-                				<div class="bar">
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>				<div class="relax">
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>
-                
-			</div>
-		</div>
+              <div class="direc"><a href="https://www.google.com/maps/place/Av+Hidalgo+504,+Centro,+74200+Atlixco,+Pue./@18.9100922,-98.4313701,17z/data=!4m5!3m4!1s0x85cfb47cf5b13d41:0xe37c1be7228d9d7e!8m2!3d18.9100415!4d-98.4364556">Avenida Hidalgo 504 Centro, Atlixco 74200, México</a></div>
+              
+              
+              <div class="telf"><a href="tel:+522444481843"><img src="imagenes/phone-receiver.png"><p>+52 244 448 1843</p>
+                </a>  </div>
+          </div>
           
+          <div id="descrip">
+              Restaurante de comida típica del valle de Atlixco, variedad de tamales preparados, con recetas de la abuela desde 1967.
+Además de los tamales podrás encontrar moles, pipianes y toda la variedad gastronómica de la que goza esta región.
+          </div>
+          <br>
+         <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><a><img src="imagenes/tamalito2.jpg"></a></div>
+        <div class="swiper-slide"><a><img src="imagenes/tamalito3.jpg"></a></div>
+      <div class="swiper-slide"><a><img src="imagenes/tamalito%204.jpg"></a></div>   
+             </div>
+          </div>
       </main>
-      
  </body>
     
     
     <script src="js/slideout.min.js"></script>
-    <script src="js/jquery-3.2.1.js"></script>
+          <script src="js/swiper.min.js"></script>
     <script>
 
       var slideout = new Slideout({
@@ -167,7 +129,19 @@
   fixed.style.transition = 'transform 100ms ease';
 });
         
+      
       </script>
       
-  
+          <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+
+  </script>
 </html>

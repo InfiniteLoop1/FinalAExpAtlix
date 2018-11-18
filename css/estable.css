@@ -3,7 +3,7 @@ body {
 		margin: 0;
 	padding: 0;
     background-color: white;
-
+overflow-y: hidden;
 }
 
 .slideout-open .bloqueo
@@ -17,85 +17,80 @@ body {
     margin-top: 0%;
 }
 
-.wrap{
-	max-width: 100%;
-	width: 100%;
-	margin: auto;
-    margin-top: -3%;
-}
-
-
-.category_list{
-	width: 100%; 
-}
-
-.category_list .category_item{
-	padding: 10.8px;
-    font-size: 8.8px;
-	background-color: dodgerblue;
-	text-align: center;
-	text-decoration: none;
-	color: #fff;
-    display: inline-block;
-    margin-top: 8%;
-    margin-left: .9%;
-    border-radius: 25px;
-}
-
-.category_list .ct_item-active{
-	background: #2D3E50;
-    border-radius: 25px;
-}
-
-/* PRODUCTOS ============*/
-
-.products-list{
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-    margin-top: 0%;
-    
-}
-
-
-.products-list .product-item{
-	width: 46%;
-	margin-left: 2.5%;
-    margin-bottom: 25px;
+.contenedor input{
     margin-top: 4%;
-	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0);
-    font-size: 12.5px;
+    display: none;
+}
+
+.contenedor label{
+    margin: 1%;
+    background-color: dodgerblue;
+    border-radius: 8%;
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+    font-size: 78%;
     font-family:sans-serif;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	align-self: flex-start;
-	transition: all .4s;
+    margin-left: 2%
 }
 
-.products-list .product-item img{
-	width: 100%;
-        border-radius: 150px;
+
+
+.contenedor input:checked ~ label {
+  background-color: steelblue;
 }
 
-.products-list .product-item a{
-	display: block;
-	width: 100%;
-	padding: 8px 0;
-	background: #2D3E50;
-    border-radius: 10px;
-	color: #fff;
-	text-align: center;
-	text-decoration: none;
+.contenedor{
+    margin-top: 5%;
 }
 
-.panel{
-    width: 100%;
-    width: 100%;
+#root{
+margin-left: 38%;
 }
 
-#relax{
-    margin-left: 41%;
-    margin-top: 1.6%;
+#imagenes{
+    margin-top: 5%;
 }
 
+#imagenes img {
+    margin-top: 2%;
+  max-width: 42%;
+    margin-left: 4.7%;
+    border-radius: 18%;
+}
+
+
+#laptop:checked ~ #imagenes .tablet, 
+#laptop:checked ~ #imagenes .relax,
+#laptop:checked ~ #imagenes .bar,
+#laptop:checked ~ #imagenes .movil {
+	display: none;
+}
+
+#tablet:checked ~ #imagenes .laptop,
+#tablet:checked ~ #imagenes .relax,
+#tablet:checked ~ #imagenes .bar,
+#tablet:checked ~ #imagenes .movil {
+	display: none;
+}
+
+#movil:checked ~ #imagenes .tablet,
+#movil:checked ~ #imagenes .relax,
+#movil:checked ~ #imagenes .bar,
+#movil:checked ~ #imagenes .laptop {
+	display: none;
+}
+
+#bar:checked ~ #imagenes .tablet,
+#bar:checked ~ #imagenes .relax,
+#bar:checked ~ #imagenes .movil,
+#bar:checked ~ #imagenes .laptop {
+	display: none;
+}
+
+#relax:checked ~ #imagenes .tablet,
+#relax:checked ~ #imagenes .bar,
+#relax:checked ~ #imagenes .movil,
+#relax:checked ~ #imagenes .laptop {
+	display: none;
+}

@@ -7,8 +7,9 @@
 <meta name="HandheldFriendly" content="True">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<link rel="stylesheet" href="css/estable.css">
+<link rel="stylesheet" href="css/recom.css">
 <link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/swiper.min.css">
   </head>
   <body>
       
@@ -79,75 +80,27 @@
 
 <img src="imagenes/Atlixco.png" id="logomenu">
                 <label class="bloqueo" for="btn-menu"></label>
-  </header>          
+  </header>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><a href=""><img src="imagenes/CecinaA.jpg"></a></div>
         
-          <div class="contenedor">
-			<input type="radio" name="filtro" id="laptop">
-			<label for="laptop">Restaurantes</label>
-			<input type="radio" name="filtro" id="tablet">
-			<label for="tablet">Hoteles</label>
-			<input type="radio" name="filtro" id="movil">
-			<label for="movil">Entretenimiento</label>
-              
-            <input type="radio" name="filtro" id="bar">
-			<label for="bar">Bares</label>
-              <br>
-              <br>
-            <input type="radio" name="filtro" id="relax">
-			<label for="relax" id="root">Relajación</label>
-			
-			<div id="imagenes">
-				<div class="laptop">
-                        <a href="tamalito.html"><img src="imagenes/tamalito.jpg" ></a>
-                    <a href="palomas.html">
-                        <img src="imagenes/palomas.png" ></a>
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>
-				<div class="tablet">
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>
-				<div class="movil">
-                        <img src="imagenes/haras.jpg" >
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>
-                				<div class="bar">
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>				<div class="relax">
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>
-                
-			</div>
-		</div>
-          
+        <div class="swiper-slide"><a href=""><img src="imagenes/Pamb.jpg"></a></div>
+        
+        
+      <div class="swiper-slide"><a href=""><img src="imagenes/Enchiladas.jpg"></a></div>
+        
+    </div>
+  </div>
+            
+        
       </main>
       
  </body>
     
     
     <script src="js/slideout.min.js"></script>
-    <script src="js/jquery-3.2.1.js"></script>
+          <script src="js/swiper.min.js"></script>
     <script>
 
       var slideout = new Slideout({
@@ -167,7 +120,19 @@
   fixed.style.transition = 'transform 100ms ease';
 });
         
+      
       </script>
       
-  
+          <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+
+  </script>
 </html>

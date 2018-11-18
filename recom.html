@@ -7,8 +7,9 @@
 <meta name="HandheldFriendly" content="True">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<link rel="stylesheet" href="css/estable.css">
+<link rel="stylesheet" href="css/recom.css">
 <link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/swiper.min.css">
   </head>
   <body>
       
@@ -79,75 +80,33 @@
 
 <img src="imagenes/Atlixco.png" id="logomenu">
                 <label class="bloqueo" for="btn-menu"></label>
-  </header>          
+  </header>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><a href="https://es.wikipedia.org/wiki/Huey_Atlixcáyotl"><img src="imagenes/Atlixca.jpg"></a></div>
         
-          <div class="contenedor">
-			<input type="radio" name="filtro" id="laptop">
-			<label for="laptop">Restaurantes</label>
-			<input type="radio" name="filtro" id="tablet">
-			<label for="tablet">Hoteles</label>
-			<input type="radio" name="filtro" id="movil">
-			<label for="movil">Entretenimiento</label>
-              
-            <input type="radio" name="filtro" id="bar">
-			<label for="bar">Bares</label>
-              <br>
-              <br>
-            <input type="radio" name="filtro" id="relax">
-			<label for="relax" id="root">Relajación</label>
-			
-			<div id="imagenes">
-				<div class="laptop">
-                        <a href="tamalito.html"><img src="imagenes/tamalito.jpg" ></a>
-                    <a href="palomas.html">
-                        <img src="imagenes/palomas.png" ></a>
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>
-				<div class="tablet">
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>
-				<div class="movil">
-                        <img src="imagenes/haras.jpg" >
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>
-                				<div class="bar">
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>				<div class="relax">
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg" >
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-                        <img src="imagenes/publi.jpg">
-				</div>
-                
-			</div>
-		</div>
-          
+        <div class="swiper-slide"><a href="http://turismoatlixco.com/fiesta-de-reyes/"><img src="imagenes/desfilerey.jpg"></a></div>
+        
+        
+      <div class="swiper-slide"><a href="http://turismoenpuebla.com/portal/art536_Semana_Santa_en_Atlixco_.html"><img src="imagenes/Calva.jpg"></a></div>
+        
+      <div class="swiper-slide"><a href="http://turismoatlixco.com/atlixcayotontli/"><img src="imagenes/cecina.jpg"></a></div>
+        
+      <div class="swiper-slide"><a href="http://turismoatlixco.com/villa-iluminada/"><img src="imagenes/villa.jpg"></a></div>
+        
+      <div class="swiper-slide"><a href="http://turismoatlixco.com/feria-de-la-noche-buena/"><img src="imagenes/pascua.jpg"></a></div>
+        
+    </div>
+  </div>
+            
+        
       </main>
       
  </body>
     
     
     <script src="js/slideout.min.js"></script>
-    <script src="js/jquery-3.2.1.js"></script>
+          <script src="js/swiper.min.js"></script>
     <script>
 
       var slideout = new Slideout({
@@ -167,7 +126,19 @@
   fixed.style.transition = 'transform 100ms ease';
 });
         
+      
       </script>
       
-  
+          <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+
+  </script>
 </html>
