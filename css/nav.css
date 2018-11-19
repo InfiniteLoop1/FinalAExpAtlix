@@ -168,9 +168,10 @@
 
 #logomenu{
     width: 6.5%;
-    margin-left: 42%;
+    margin-left: 41%;
     position: absolute;
     margin-top: .6%;
+    z-index: 18;
 }
 
 .slideout-open #logomenu {

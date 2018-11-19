@@ -67,9 +67,10 @@ text-align: center;
 
 .swiper-container {
       width: 100%;
+    margin-top: 5%;
     margin: 0;
-    max-height: 28%;
     padding: 0;
+
     }
 
     .swiper-slide {
@@ -93,13 +94,14 @@ text-align: center;
         margin: 0;
         width: 100%;
         max-width: 100%;
-        max-height: 28%;
+            margin-top: 9%;
     }
 
 .swiper-slide img{
     max-width: 100%;
     padding: 0;
     margin-bottom: 0;
+    margin-top: -65%;
 }
 
 
@@ -146,7 +148,7 @@ text-align: center;
     margin: 0;
     margin-top: 4%;
     text-align: center;
-    font-size: 77%;
+    font-size: 95%;
     font-family:serif;
 }
 
@@ -187,5 +189,16 @@ width: 8%;
     text-align: justify;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 7%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+
+.slideout-open #descrip{
+    font-family:sans-serif;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10.8%;
 }

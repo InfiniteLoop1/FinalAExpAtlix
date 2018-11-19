@@ -3,6 +3,7 @@ body {
 		margin: 0;
 	padding: 0;
     background-color: white;
+    overflow-y: hidden;
 }
 
 .slideout-open #texto{
@@ -27,11 +28,9 @@ body {
 
 .slideout-open .swiper-container
 {
-      width: 84%;
-    max-height: 100%;
+      width: 100%;
     margin: 0;
     padding: 0;
-    z-index: 0;
 }
 
 .slideout-open .swiper-slide
@@ -55,7 +54,6 @@ text-align: center;
         padding: 0;
         margin: 0;
         width: 65%;
-        max-height: 100%;
 }
 
 
@@ -69,7 +67,6 @@ text-align: center;
 
 
 .swiper-container {
-      width: 100%;
     max-height: 100%;
     margin: 0;
     padding: 0;
@@ -94,15 +91,12 @@ text-align: center;
         z-index: 0;
         padding: 0;
         margin: 0;
-        width: 100%;
-        max-width: 100%;
-        max-height: 100%;
+        max-height: 65%;
     margin-top: 0%;
     }
 
 .swiper-slide img{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 58%;
     margin-top: -27%;
     padding: 0;
     margin-bottom: 0;
@@ -152,7 +146,7 @@ text-align: center;
     margin: 0;
     margin-top: 4%;
     text-align: center;
-    font-size: 77%;
+    font-size: 95%;
     font-family:serif;
 }
 
@@ -160,6 +154,7 @@ text-align: center;
 width: 8%;
     margin-left: -54%;
     text-decoration: none;
+    margin-top: -1%;
 }
 
 .telf {
@@ -193,5 +188,5 @@ width: 8%;
     text-align: justify;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 7%;
+    margin-top: 10%;
 }
