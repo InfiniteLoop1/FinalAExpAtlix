@@ -8,7 +8,7 @@ overflow-y: hidden;
 
 .slideout-open .bloqueo
 {
-    z-index: 5;
+    z-index: 1;
     position: absolute;
     background-color: rgba(0,0,0,0);
     width: 100%;
@@ -44,8 +44,12 @@ overflow-y: hidden;
     margin-top: 5%;
 }
 
+.contenedor label{
+    margin-left: 2.4%;
+}
+
 #root{
-margin-left: 38%;
+margin-left: 40%;
 }
 
 #imagenes{
@@ -57,6 +61,15 @@ margin-left: 38%;
   max-width: 42%;
     margin-left: 4.7%;
     border-radius: 18%;
+}
+
+
+.slideout-open #imagenes img {
+    margin-top: 0%;
+  max-width: 38%;
+    margin-left: 4.7%;
+    border-radius: 18%;
+    margin-bottom: 2%;
 }
 
 
