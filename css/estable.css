@@ -53,6 +53,19 @@ overflow-y: hidden;
 margin-left: 40.3%;
 }
 
+.slideout-open .contenedor{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.slideout-open .contenedor label{
+    margin-left: 2.4%;
+}
+
+.slideout-open #root{
+margin-left: 40.3%;
+}
+
 #imagenes{
     margin-top: 5%;
 }
