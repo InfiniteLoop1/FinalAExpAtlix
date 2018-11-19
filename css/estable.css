@@ -46,7 +46,7 @@ overflow-y: hidden;
 }
 
 .contenedor label{
-    margin-left: 4.2%;
+    margin-left: 4.4%;
 }
 
 #root{
@@ -59,7 +59,7 @@ overflow-y: hidden;
 }
 
 .slideout-open .contenedor label{
-    margin-left: 2.4%;
+    margin-left: 4.4%;
 }
 
 .slideout-open #root{
