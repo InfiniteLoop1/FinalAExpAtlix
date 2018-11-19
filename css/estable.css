@@ -41,11 +41,12 @@ overflow-y: hidden;
 }
 
 .contenedor{
+    width: 100%;
     margin-top: 5%;
 }
 
 .contenedor label{
-    margin-left: 3.7%;
+    margin-left: 2.4%;
 }
 
 #root{
