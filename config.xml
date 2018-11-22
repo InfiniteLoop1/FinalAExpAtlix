@@ -15,7 +15,11 @@ Aplicación oficial de Atlixtour
 	Javier Ortega Zamora
 </author>
 	
-	<platform name="android" />
+<platform name="android"> 
+  <allow-intent href="market:*" /> 
+  <preference name="android-minSdkVersion" value="26" /> 
+  <preference name="android-targetSdkVersion" value="26" /> 
+</platform>
 	
 	<preference name="DisallowOverscroll" value="true"/> 
 	
