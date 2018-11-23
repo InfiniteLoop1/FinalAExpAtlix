@@ -3,7 +3,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets"
 	xmlns:gap="http://phonegap.com/ns/1.0"
 	id="com.javcode.exatlixco"
-	version="1.0">
+	version="1.1">
 
 <name> Exploratlixco </name>
 
@@ -18,7 +18,7 @@ Aplicación oficial de Atlixtour
 <platform name="android"> 
   <allow-intent href="market:*" /> 
   <preference name="android-minSdkVersion" value="23" /> 
-  <preference name="android-targetSdkVersion" value="23" /> 
+  <preference name="android-targetSdkVersion" value="26" /> 
 </platform>
 	
 	<preference name="DisallowOverscroll" value="true"/> 
