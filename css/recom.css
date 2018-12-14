@@ -110,16 +110,18 @@ body {
 }
 
 #linkmap{
-    padding: 5%;
-    position:absolute;
-    text-decoration: none;
+    padding: 0;
+    margin: 0;
     width: 100%;
+    position: fixed;
+    margin-top: 79%;
 }
 
 #linkmap img{
     width: 38%;
     height: auto;
-    margin-top: 156%;
+    padding: 0;
+    margin: 0;
 }
 
 
