@@ -109,6 +109,21 @@ body {
     height: 99%;
 }
 
+#linkmap{
+    padding: 5%;
+    position:absolute;
+    text-decoration: none;
+    width: 100%;
+}
+
+#linkmap img{
+    width: 38%;
+    height: auto;
+    margin-top: 156%;
+}
+
+
+
 
 /* MEDIA */
 
