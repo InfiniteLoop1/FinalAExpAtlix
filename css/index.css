@@ -140,3 +140,151 @@ text-align: center;
  width: 86%;
     margin-top:2.5%;
 }
+
+
+@media screen and (max-width: 768px){
+     
+    body {        
+  width: 100%;
+		margin: 0;
+	padding: 0;
+    background-color: white;
+}
+
+.slideout-open #texto{
+        padding-left: 4%;
+    padding-right: 5%;
+    text-align: center;
+    background-color: white;
+}
+
+.slideout-open .bloqueo
+{
+    z-index: 5;
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+    width: 100%;
+    height: 8500%;
+    margin-left: -6%;
+    margin-top: 0%;
+}
+
+
+#words{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 0%;
+    z-index: 4;
+    position: absolute;
+}
+
+.slideout-open #words
+{
+    width: 85%;
+    margin-left:-50.7%;
+    margin-top: 0%;
+    z-index:1;
+}
+
+.slideout-open .swiper-container
+{
+      width: 84%;
+    max-height: 42%;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+
+.slideout-open .swiper-slide
+{
+text-align: center;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+        z-index: 0;
+        padding: 0;
+        margin: 0;
+        width: 65%;
+        max-height: 42%;
+}
+
+
+.slideout-open .swiper-slide img{
+    width: 101%;
+        margin-top: -3%;
+    z-index: 0;
+    max-height: 42%;
+    position: relative;
+}
+
+
+
+.swiper-container {
+      width: 100%;
+    margin: 0;
+    padding: 0;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+        z-index: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+
+.swiper-slide img{
+
+    width: 100%;
+        margin-top: 0%;
+}
+
+#pub{
+ width: 100%;
+    margin-top: 4.6%;
+}
+
+.slideout-open #pub{
+ width: 86%;
+    margin-top:3%;
+}
+
+#hospeda{
+    width: 100%;
+    margin-top: 2.5%;
+}
+
+.slideout-open #hospeda{
+ width: 86%;
+    margin-top:2.5%;
+}
+    
+    
+}
